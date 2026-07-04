@@ -1,0 +1,41 @@
+{{ $item := .item }}
+
+{{ $year_value := $item.Params.event_start | default $item.Date }}
+{{ $year := (time $year_value).Format "2006" }}
+
+{{ $pub := partial "functions/resolve_publication.html" $item }}
+
+{{ $title_url := "" }}
+{{ with $item.Params.doi }}
+  {{ $doi := strings.TrimSpace (printf "%v" .) }}
+  {{ if hasPrefix $doi "http://" }}
+    {{ $title_url = $doi }}
+  {{ else if hasPrefix $doi "https://" }}
+    {{ $title_url = $doi }}
+  {{ else }}
+    {{ $title_url = printf "https://doi.org/%s" $doi }}
+  {{ end }}
+{{ end }}
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  <span class="article-metadata li-cite-author">
+    {{ delimit $item.Params.authors ", " | markdownify }}
+  </span>
+
+  ({{- $year -}}).
+
+  {{ if $title_url }}
+    <a
+      href="{{ $title_url }}"
+      class="underline"
+      target="_blank"
+      rel="noopener noreferrer"
+    >{{ $item.Title }}</a>.
+  {{ else }}
+    {{ $item.Title }}.
+  {{ end }}
+
+  {{ with $pub.display_short }}{{- . | markdownify -}}.{{ end }}
+</div>
