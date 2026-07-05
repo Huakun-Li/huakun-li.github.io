@@ -10,7 +10,7 @@ main:
     weight: 10
   - name: Research
     identifier: research
-    url: /research
+    url: /research/
     weight: 20
   - name: Publications
     identifier: a0824555
@@ -18,5 +18,5 @@ main:
     weight: 30
   - name: Resources
     identifier: resources
-    url: /resources
+    url: /resources/
     weight: 40
