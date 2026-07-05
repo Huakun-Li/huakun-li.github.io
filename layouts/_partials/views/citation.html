@@ -34,12 +34,15 @@
       {{- $marker := "" -}}
 
       {{/* Detect and remove author markers before converting to initials. */}}
-      {{- if hasSuffix $fullName "†" -}}
+      {{- if hasSuffix $fullName "†,*" -}}
+        {{- $marker = "†,*" -}}
+        {{- $fullName = strings.TrimSpace (strings.TrimSuffix "†,*" $fullName) -}}
+      {{- else if hasSuffix $fullName "†" -}}
         {{- $marker = "†" -}}
         {{- $fullName = strings.TrimSpace (strings.TrimSuffix "†" $fullName) -}}
-      {{- else if hasSuffix $fullName "#" -}}
-        {{- $marker = "#" -}}
-        {{- $fullName = strings.TrimSpace (strings.TrimSuffix "#" $fullName) -}}
+      {{- else if hasSuffix $fullName "*" -}}
+        {{- $marker = "*" -}}
+        {{- $fullName = strings.TrimSpace (strings.TrimSuffix "*" $fullName) -}}
       {{- end -}}
 
       {{/* Convert "First Middle Last" to "F. M. Last". */}}

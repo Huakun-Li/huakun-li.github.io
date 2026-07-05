@@ -12,7 +12,7 @@ authors:
 - Mohammad Asif Zaman
 - Tong Ling
 - Ramkumar Sabesan
-- Daniel Palanker#
+- Daniel Palanker*
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -29,8 +29,13 @@ publication_types:
 - article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: '*Biomedical Optics Express*'
-publication_short: ''
+publication:
+  name: Biomedical Optics Express
+  short_name:
+  volume: "11"
+  issue: ""
+  pages: "4332-4352"
+  publisher: ""
 
 doi: 10.1364/BOE.573038
 

@@ -27,7 +27,7 @@ publication_types:
 - paper-conference
 
 # Publication name and optional abbreviated publication name.
-publication: '*2025 IEEE Photonics Conference*'
+publication: '*IEEE Photonics Conference*'
 publication_short: ''
 
 doi: '10.1109/IPC65510.2025.11282242'

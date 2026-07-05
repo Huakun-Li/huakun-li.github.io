@@ -32,7 +32,7 @@ publication_types:
 - paper-conference
 
 # Publication name and optional abbreviated publication name.
-publication: '*Optical Coherence Tomography and Coherence Domain Optical Methods in Biomedicine XXVIII*'
+publication: '*SPIE BiOS, Optical Coherence Tomography and Coherence Domain Optical Methods in Biomedicine XXVIII*'
 publication_short: ''
 
 doi: 10.1117/12.3005552

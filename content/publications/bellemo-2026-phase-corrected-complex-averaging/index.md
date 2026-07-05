@@ -11,8 +11,8 @@ authors:
 - Huakun Li†
 - Bingyao Tan
 - Xinyu Liu
-- Tong Ling#
-- Leopold Schmetterer#
+- Tong Ling*
+- Leopold Schmetterer*
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -29,8 +29,13 @@ publication_types:
 - article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: '*APL Photonics*'
-publication_short: ''
+publication:
+  name: APL Photonics
+  short_name:
+  volume: "11"
+  issue: ""
+  pages: "026108"
+  publisher: ""
 
 doi: 10.1063/5.0301680
 

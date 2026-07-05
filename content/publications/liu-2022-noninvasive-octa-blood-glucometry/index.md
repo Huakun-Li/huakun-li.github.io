@@ -29,7 +29,7 @@ publication_types:
 - paper-conference
 
 # Publication name and optional abbreviated publication name.
-publication: '*Dynamics and Fluctuations in Biomedical Photonics XIX*'
+publication: '*SPIE BiOS, Dynamics and Fluctuations in Biomedical Photonics XIX*'
 publication_short: ''
 
 doi: ''

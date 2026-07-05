@@ -11,16 +11,14 @@ authors:
 - Hengze You†
 - Huakun Li
 - Kheng Ling Goh
-- Tong Ling#
+- Tong Ling*
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
 author_notes: []
 
-date: '2026-01-01'
-
-# Date to publish webpage (NOT necessarily Bibtex publication's date).
-publishDate: '2026-07-04T20:09:05.322645Z'
+date: '2026-05-22'
+publishDate: '2026-05-22T00:00:00Z'
 
 # Publication type.
 # A single CSL publication type but formatted as a YAML list (for Hugo requirements).
@@ -28,8 +26,13 @@ publication_types:
 - article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: '*PhotoniX Life*'
-publication_short: ''
+publication:
+  name: PhotoniX Life
+  short_name: PhotoniX Life
+  volume: "1"
+  issue: ""
+  pages: "11"
+  publisher: ""
 
 doi: 10.3724/PXLIFE.2025-0012
 

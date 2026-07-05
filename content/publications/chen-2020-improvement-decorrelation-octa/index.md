@@ -12,7 +12,7 @@ authors:
 - Kaiyuan Liu
 - Tongtong Cao
 - Huakun Li
-- Peng Li#
+- Peng Li*
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -29,8 +29,14 @@ publication_types:
 - article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: '*IEEE Transactions on Medical Imaging*'
-publication_short: ''
+# Publication name and optional abbreviated publication name.
+publication:
+  name: IEEE Transactions on Medical Imaging
+  short_name:
+  volume: "39"
+  issue: ""
+  pages: "4286 - 4296"
+  publisher: ""
 
 doi: 10.1109/TMI.2020.3016334
 

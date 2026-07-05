@@ -11,7 +11,7 @@ authors:
 - Lin Yao
 - Xiaofeng Deng
 - Ziyi Zhang
-- Peng Li#
+- Peng Li*
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -28,8 +28,14 @@ publication_types:
 - article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: '*Journal of Innovative Optical Health Sciences*'
-publication_short: ''
+publication:
+  name: Journal of Innovative Optical Health Sciences
+  short_name:
+  volume: "14"
+  issue: ""
+  pages: "2130001"
+  publisher: ""
+
 
 doi: 10.1142/S1793545821300019
 

@@ -13,7 +13,7 @@ authors:
 - Ziyi Zhang
 - Huakun Li
 - Juan Ye
-- Peng Li#
+- Peng Li*
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -30,8 +30,13 @@ publication_types:
 - article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: '*Biomedical Optics Express*'
-publication_short: ''
+publication:
+  name: Biomedical Optics Express
+  short_name:
+  volume: "12"
+  issue: ""
+  pages: "4680-4688"
+  publisher: ""
 
 doi: 10.1364/BOE.430104
 

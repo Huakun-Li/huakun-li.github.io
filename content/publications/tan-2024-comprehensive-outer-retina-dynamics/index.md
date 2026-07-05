@@ -32,7 +32,7 @@ publication_types:
 - paper-conference
 
 # Publication name and optional abbreviated publication name.
-publication: '*Ophthalmic Technologies XXXIV*'
+publication: '*SPIE BiOS, Ophthalmic Technologies XXXIV*'
 publication_short: ''
 
 doi: 10.1117/12.3003655

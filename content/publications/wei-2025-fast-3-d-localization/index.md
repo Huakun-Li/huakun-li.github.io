@@ -12,7 +12,7 @@ authors:
 - Huakun Li
 - Haitao Nie
 - Bihan Wen
-- Tong Ling#
+- Tong Ling*
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -29,8 +29,14 @@ publication_types:
 - article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: '*npj Nanophotonics*'
-publication_short: ''
+publication:
+  name: npj Nanophotonics
+  short_name:
+  volume: "2"
+  issue: ""
+  pages: "21"
+  publisher: ""
+
 
 doi: 10.1038/s44310-025-00068-3
 

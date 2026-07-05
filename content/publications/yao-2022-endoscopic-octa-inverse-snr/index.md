@@ -12,7 +12,7 @@ authors:
 - Huakun Li†
 - Kaiyuan Liu
 - Ziyi Zhang
-- Peng Li#
+- Peng Li*
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -29,8 +29,13 @@ publication_types:
 - article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: '*Quantitative Imaging in Medicine and Surgery*'
-publication_short: ''
+publication:
+  name: Quantitative Imaging in Medicine and Surgery
+  short_name:
+  volume: "12"
+  issue: ""
+  pages: "3078-3091"
+  publisher: ""
 
 doi: 10.21037/qims-21-1056
 

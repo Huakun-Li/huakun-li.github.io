@@ -14,7 +14,7 @@ authors:
 - Ziyi Zhang
 - Xiaofeng Deng
 - Chixin Du
-- Peng Li#
+- Peng Li*
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -31,8 +31,13 @@ publication_types:
 - article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: '*Optics Letters*'
-publication_short: ''
+publication:
+  name: Optics Letters
+  short_name:
+  volume: "46"
+  issue: ""
+  pages: "368-371"
+  publisher: ""
 
 doi: 10.1364/OL.405751
 

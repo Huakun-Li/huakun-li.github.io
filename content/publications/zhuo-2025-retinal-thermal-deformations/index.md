@@ -7,14 +7,14 @@ title: Retinal thermal deformations measured with phase-sensitive optical cohere
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- Yueming Zhuo
+- Yueming Zhuo*
 - Mohajeet Bhuckory†
 - Huakun Li†
 - Junya Hattori
 - Davis Pham-Howard
 - David Veysset
 - Tong Ling
-- Daniel Palanker#
+- Daniel Palanker*
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -31,8 +31,13 @@ publication_types:
 - article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: '*Light: Science & Applications*'
-publication_short: ''
+publication:
+  name: "Light: Science & Applications"
+  short_name:
+  volume: "14"
+  issue: ""
+  pages: "151"
+  publisher: ""
 
 doi: 10.1038/s41377-025-01798-x
 

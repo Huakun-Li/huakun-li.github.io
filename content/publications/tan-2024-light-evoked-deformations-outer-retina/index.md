@@ -14,9 +14,9 @@ authors:
 - Rajeshkumar Mupparapu
 - Davide Nanni
 - Veluchamy Amutha Barathi
-- Daniel Palanker#
-- Leopold Schmetterer#
-- Tong Ling#
+- Daniel Palanker*
+- Leopold Schmetterer*
+- Tong Ling*
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -33,8 +33,14 @@ publication_types:
 - article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: '*Nature Communications*'
-publication_short: ''
+publication:
+  name: Nature Communications
+  short_name:
+  volume: "15"
+  issue: ""
+  pages: "5156"
+  publisher: ""
+
 
 doi: 10.1038/s41467-024-49014-5
 

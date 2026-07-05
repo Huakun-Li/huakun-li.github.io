@@ -1,7 +1,7 @@
 ---
 title: In vivo elastography of the human retina using light-evoked intrinsic actuation
 authors:
-  - Teng Liu†
+  - Teng Liu†,*
   - Huakun Li†
   - Vimal Prabhu Pandiyan
   - Keyu Chen
@@ -9,8 +9,8 @@ authors:
   - Benjamin J. Wendel
   - Debarshi Mustafi,
   - Jennifer R. Chao
-  - Tong Ling#
-  - Ramkumar Sabesan#
+  - Tong Ling*
+  - Ramkumar Sabesan*
 author_notes: []
 date: 2026-01-01
 publishDate: 2026-07-04T20:09:05.540873Z

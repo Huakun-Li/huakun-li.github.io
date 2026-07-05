@@ -13,7 +13,7 @@ authors:
 - Veluchamy Amutha Barathi
 - Ramkumar Sabesan
 - Leopold Schmetterer
-- Tong Ling#
+- Tong Ling*
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -29,9 +29,14 @@ publishDate: '2026-07-04T20:09:05.335415Z'
 publication_types:
 - article-journal
 
-# Publication name and optional abbreviated publication name.
-publication: '*Journal of Physics D: Applied Physics*'
-publication_short: ''
+# Publication name and optional abbreviated publication name.publication:
+publication:
+  name: "Journal of Physics D: Applied Physics"
+  short_name:
+  volume: "58"
+  issue: ""
+  pages: "145102"
+  publisher: ""
 
 doi: 10.1088/1361-6463/adb3b4
 

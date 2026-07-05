@@ -7,11 +7,11 @@ title: Interferometric imaging of the reversible rhodopsin dynamics in the livin
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- Yueming Zhuo†
+- Yueming Zhuo†,*
 - Huakun Li†
 - Mohajeet Bhuckory
 - Davis Pham-Howard
-- Daniel Palanker#
+- Daniel Palanker*
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -28,8 +28,14 @@ publication_types:
 - article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: '*Nature Communications*'
-publication_short: ''
+publication:
+  name: Nature Communications
+  short_name:
+  volume: "16"
+  issue: ""
+  pages: "10730"
+  publisher: ""
+
 
 doi: 10.1038/s41467-025-65759-z
 

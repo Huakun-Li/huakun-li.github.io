@@ -11,7 +11,7 @@ authors:
   - Bingyao Tan
   - Xiaodong Chen
   - Leopold Schmetterer
-  - Tong Ling#
+  - Tong Ling*
 
 date: 2026-07-04T00:42:26.242Z
 

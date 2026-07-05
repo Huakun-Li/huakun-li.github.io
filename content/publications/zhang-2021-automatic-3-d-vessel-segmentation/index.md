@@ -13,7 +13,7 @@ authors:
 - Ruixiang Chen
 - Haixia Qiu
 - Ying Gu
-- Peng Li#
+- Peng Li*
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -30,8 +30,14 @@ publication_types:
 - article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: '*Quantitative Imaging in Medicine and Surgery*'
-publication_short: ''
+publication:
+  name: Quantitative Imaging in Medicine and Surgery
+  short_name:
+  volume: "11"
+  issue: ""
+  pages: "895-906"
+  publisher: ""
+
 
 doi: 10.21037/qims-20-868
 

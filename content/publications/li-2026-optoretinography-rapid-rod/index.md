@@ -15,8 +15,8 @@ authors:
 - Bingyao Tan
 - Veluchamy Amutha Barathi
 - Leopold Schmetterer
-- Ramkumar Sabesan#
-- Tong Ling#
+- Ramkumar Sabesan*
+- Tong Ling*
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -33,8 +33,13 @@ publication_types:
 - article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: '*Light: Science & Applications*'
-publication_short: ''
+publication:
+  name: "Light: Science & Applications"
+  short_name:
+  volume: "15"
+  issue: ""
+  pages: "58"
+  publisher: ""
 
 doi: 10.1038/s41377-025-02149-6
 
