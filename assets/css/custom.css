@@ -1,0 +1,107 @@
+/* Research page only */
+.research-page-marker {
+  display: none;
+}
+
+/* Make the Markdown title and content area wider */
+body:has(.research-page-marker) :is(.max-w-prose, .max-w-3xl) {
+  max-width: min(1200px, calc(100vw - 1.5rem)) !important;
+}
+
+/* Justify paragraph text, while keeping the final line left-aligned */
+body:has(.research-page-marker) p {
+  text-align: justify;
+  text-align-last: left;
+  hyphens: auto;
+}
+
+figure figcaption a,
+figure figcaption a:visited {
+  color: inherit !important;
+  text-decoration-color: currentColor;
+}
+
+/* Center figures and captions on the Research page */
+body:has(.research-page-marker) figure {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center;
+}
+
+body:has(.research-page-marker) figure img {
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+body:has(.research-page-marker) figcaption {
+  text-align: center;
+}
+
+
+/* Homepage: My Research section */
+#research-intro .max-w-prose,
+#research-intro .max-w-3xl,
+#research-intro .max-w-4xl {
+  max-width: min(1000px, calc(100vw - 3rem)) !important;
+}
+
+#research-intro p {
+  text-align: justify;
+  text-align-last: left;
+  hyphens: auto;
+}
+
+
+/* Use two wider education cards per row on large screens */
+@media (min-width: 1280px) {
+  .grid.grid-cols-1.md\:grid-cols-2.xl\:grid-cols-3.gap-6 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+/* Reduce the homepage profile name */
+#section-resume-biography-3 h1 {
+  font-size: clamp(2.25rem, 4vw, 2.6rem) !important;
+}
+
+
+/* Resource items */
+.resource-item {
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr);
+  gap: 2rem;
+  align-items: center;
+  margin: 2.5rem 0;
+}
+
+.resource-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.75rem;
+}
+
+.resource-item h3 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+.resource-item p {
+  margin-bottom: 0;
+}
+
+@media (max-width: 700px) {
+  .resource-item {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+/* Justify text on publication pages */
+/* Justify citation text on the Publications page */
+body:has(.publication-page-marker) .citation,
+body:has(.publication-page-marker) .publication,
+body:has(.publication-page-marker) article {
+  text-align: justify;
+  text-align-last: left;
+}

@@ -20,13 +20,14 @@ sections:
         gradient_mesh:
           enable: true
       name:
-        size: "md"
+        size: "sm"
       avatar:
         size: "medium"
         shape: "circle"
     ce: "section-a4b502d9"
     As: "section-847fdc07"
   - block: "markdown"
+    id: research-intro
     content:
       title: "My Research"
       subtitle: ""

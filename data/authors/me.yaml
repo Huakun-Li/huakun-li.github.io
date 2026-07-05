@@ -9,7 +9,7 @@ name:
   pronunciation: ""
   pronouns: "he/him"
 role: "Postdoctoral Scholar"
-bio: "Huakun Li is a postdoctoral scholar at UCLA. He is passionate about developing state-of-the-art functional imaging platforms to advance retinal physiology research."
+bio: "Huakun Li is a postdoctoral scholar at UCLA. He is passionate about developing state-of-the-art functional interrogation platforms to advance retinal physiology research."
 affiliations: []
 links:
   - icon: "academicons/google-scholar"
@@ -30,6 +30,7 @@ links:
 interests:
   - "Retinal circuits"
   - "Functional retinal imaging"
+  - "Interferometric imaging"
   - "Cell biophysics"
 education:
   - degree: "PhD Biomedical Engineering"

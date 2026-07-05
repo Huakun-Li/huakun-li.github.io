@@ -13,7 +13,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Huakun LI, PhD"
+    name: "Huakun LI"
     # Schema.org type for structured data
     type: person # person | organization | local_business
     # Short tagline displayed on your site

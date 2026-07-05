@@ -49,4 +49,19 @@ sections:
       view: citation
       spacing:
         padding: ["20px", "0", "30px", "0"]
+
+  - block: collection
+    content:
+      title: Patents
+      count: 0
+      filters:
+        folders:
+          - publications
+        publication_type: patent
+      archive:
+        enable: false
+    design:
+      view: citation
+      spacing:
+        padding: ["20px", "0", "30px", "0"]
 ---
