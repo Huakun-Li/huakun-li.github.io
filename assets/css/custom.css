@@ -97,11 +97,3 @@ body:has(.research-page-marker) figcaption {
   }
 }
 
-/* Justify text on publication pages */
-/* Justify citation text on the Publications page */
-body:has(.publication-page-marker) .citation,
-body:has(.publication-page-marker) .publication,
-body:has(.publication-page-marker) article {
-  text-align: justify;
-  text-align-last: left;
-}
