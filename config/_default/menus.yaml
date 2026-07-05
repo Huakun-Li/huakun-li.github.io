@@ -18,5 +18,5 @@ main:
     weight: 30
   - name: Resources
     identifier: resources
-    url: /resources/
+    url: /content_resources/
     weight: 40
