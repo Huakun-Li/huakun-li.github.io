@@ -7,16 +7,16 @@ title: Optoretinography reveals rapid rod photoreceptor movement upon rhodopsin 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
 - Huakun Li
-- Connor E. Weiss
-- Vimal Prabhu Pandiyan
-- Davide Nanni
+- Connor E. Weiss†
+- Vimal Prabhu Pandiyan†
+- Davide Nanni†
 - Teng Liu
 - Pei Wen Kung
 - Bingyao Tan
 - Veluchamy Amutha Barathi
 - Leopold Schmetterer
-- Ramkumar Sabesan
-- Tong Ling
+- Ramkumar Sabesan#
+- Tong Ling#
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list

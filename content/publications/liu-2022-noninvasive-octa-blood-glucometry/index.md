@@ -29,10 +29,11 @@ publication_types:
 - paper-conference
 
 # Publication name and optional abbreviated publication name.
-publication: '*Proceedings of SPIE*'
+publication: '*Dynamics and Fluctuations in Biomedical Photonics XIX*'
 publication_short: ''
 
 doi: ''
+paper_url: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/PC11959/0000/Noninvasive-OCTA-based-blood-glucometry/10.1117/12.2612328.short"
 
 abstract: ''
 

@@ -13,7 +13,7 @@ authors:
 - Veluchamy Amutha Barathi
 - Ramkumar Sabesan
 - Leopold Schmetterer
-- Tong Ling
+- Tong Ling#
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list

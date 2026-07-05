@@ -32,10 +32,11 @@ publication_types:
 - paper-conference
 
 # Publication name and optional abbreviated publication name.
-publication: '*Ophthalmic Technologies XXXIV*'
+publication: '*Optical Coherence Tomography and Coherence Domain Optical Methods in Biomedicine XXVIII*'
 publication_short: ''
 
 doi: 10.1117/12.3005552
+paper_url : "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/PC12830/PC1283002/Spatially-resolved-phase-signal-extraction-in-OCT-reveals-distinct-light/10.1117/12.3005552.short"
 
 abstract: ''
 

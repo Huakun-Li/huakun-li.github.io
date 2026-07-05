@@ -35,6 +35,8 @@ publication_short: ''
 
 doi: ''
 
+paper_url: "https://iovs.arvojournals.org/article.aspx?articleid=2807602"
+
 abstract: ''
 
 # Summary. An optional shortened abstract.

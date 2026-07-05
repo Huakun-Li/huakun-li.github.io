@@ -7,12 +7,12 @@ title: Phase-corrected complex averaging improves signal-to-noise ratio for in v
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- Valentina Bellemo
-- Huakun Li
+- Valentina Bellemo†
+- Huakun Li†
 - Bingyao Tan
-- X. Liu
-- Tong Ling
-- Leopold Schmetterer
+- Xinyu Liu
+- Tong Ling#
+- Leopold Schmetterer#
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list

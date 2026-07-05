@@ -13,7 +13,7 @@ authors:
 - Ziyi Zhang
 - Huakun Li
 - Juan Ye
-- Peng Li
+- Peng Li#
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list

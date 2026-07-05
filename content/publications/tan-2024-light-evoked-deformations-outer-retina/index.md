@@ -7,16 +7,16 @@ title: Light-evoked deformations in rod photoreceptors, pigment epithelium and s
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- Bingyao Tan
-- Huakun Li
+- Bingyao Tan†
+- Huakun Li†
 - Yueming Zhuo
 - Le Han
 - Rajeshkumar Mupparapu
 - Davide Nanni
 - Veluchamy Amutha Barathi
-- Daniel Palanker
-- Leopold Schmetterer
-- Tong Ling
+- Daniel Palanker#
+- Leopold Schmetterer#
+- Tong Ling#
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list

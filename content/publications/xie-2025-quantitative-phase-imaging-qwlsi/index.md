@@ -7,8 +7,8 @@ title: Quantitative Phase Imaging of Live Cells Using Quadriwave Lateral Shearin
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- H. Xie
-- J. Xie
+- Hui Xie
+- Jun Xie
 - Huakun Li
 - Tong Ling
 
@@ -30,7 +30,7 @@ publication_types:
 publication: '*2025 IEEE Photonics Conference*'
 publication_short: ''
 
-doi: ''
+doi: '10.1109/IPC65510.2025.11282242'
 
 abstract: ''
 

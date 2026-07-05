@@ -7,13 +7,13 @@ title: Automatic 3D adaptive vessel segmentation based on linear relationship be
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- Yiming Zhang
-- Huakun Li
+- Yiming Zhang†
+- Huakun Li†
 - Tongtong Cao
 - Ruixiang Chen
 - Haixia Qiu
 - Ying Gu
-- Peng Li
+- Peng Li#
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list

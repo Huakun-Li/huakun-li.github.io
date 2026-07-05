@@ -6,13 +6,13 @@ title: On the physiological processes underlying optoretinography
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- Huakun Li
-- Yueming Zhuo
+- Huakun Li†
+- Yueming Zhuo†
 - Vimal Prabhu Pandiyan
 - Mohammad Asif Zaman
 - Tong Ling
 - Ramkumar Sabesan
-- Daniel Palanker
+- Daniel Palanker#
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list

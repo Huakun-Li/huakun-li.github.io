@@ -7,11 +7,11 @@ title: Label-free mapping of subcellular dynamics using wide-field interferometr
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- Caroline Livan Anyi
-- Hengze You
+- Caroline Livan Anyi†
+- Hengze You†
 - Huakun Li
 - Kheng Ling Goh
-- Tong Ling
+- Tong Ling#
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list

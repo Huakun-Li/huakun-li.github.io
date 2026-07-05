@@ -6,14 +6,20 @@
 {{ $pub := partial "functions/resolve_publication.html" $item }}
 
 {{ $title_url := "" }}
-{{ with $item.Params.doi }}
-  {{ $doi := strings.TrimSpace (printf "%v" .) }}
-  {{ if hasPrefix $doi "http://" }}
-    {{ $title_url = $doi }}
-  {{ else if hasPrefix $doi "https://" }}
-    {{ $title_url = $doi }}
-  {{ else }}
-    {{ $title_url = printf "https://doi.org/%s" $doi }}
+
+{{/* Use paper_url first; otherwise fall back to DOI. */}}
+{{ with $item.Params.paper_url }}
+  {{ $title_url = strings.TrimSpace (printf "%v" .) }}
+{{ else }}
+  {{ with $item.Params.doi }}
+    {{ $doi := strings.TrimSpace (printf "%v" .) }}
+    {{ if hasPrefix $doi "http://" }}
+      {{ $title_url = $doi }}
+    {{ else if hasPrefix $doi "https://" }}
+      {{ $title_url = $doi }}
+    {{ else }}
+      {{ $title_url = printf "https://doi.org/%s" $doi }}
+    {{ end }}
   {{ end }}
 {{ end }}
 
@@ -21,7 +27,51 @@
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   <span class="article-metadata li-cite-author">
-    {{ delimit $item.Params.authors ", " | markdownify }}
+    {{- range $i, $authorRaw := $item.Params.authors -}}
+      {{- if $i }}, {{ end -}}
+
+      {{- $fullName := strings.TrimSpace (printf "%v" $authorRaw) -}}
+      {{- $marker := "" -}}
+
+      {{/* Detect and remove author markers before converting to initials. */}}
+      {{- if hasSuffix $fullName "†" -}}
+        {{- $marker = "†" -}}
+        {{- $fullName = strings.TrimSpace (strings.TrimSuffix "†" $fullName) -}}
+      {{- else if hasSuffix $fullName "#" -}}
+        {{- $marker = "#" -}}
+        {{- $fullName = strings.TrimSpace (strings.TrimSuffix "#" $fullName) -}}
+      {{- end -}}
+
+      {{/* Convert "First Middle Last" to "F. M. Last". */}}
+      {{- $parts := strings.Split $fullName " " -}}
+      {{- $lastIndex := sub (len $parts) 1 -}}
+      {{- $initials := slice -}}
+      {{- $lastName := index $parts $lastIndex -}}
+
+      {{- range $partIndex, $part := $parts -}}
+        {{- if lt $partIndex $lastIndex -}}
+          {{- $cleanPart := strings.TrimSuffix "." $part -}}
+          {{- if $cleanPart -}}
+            {{- $initials = $initials | append (printf "%s." (substr $cleanPart 0 1)) -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+
+      {{- $shortName := $lastName -}}
+      {{- with $initials -}}
+        {{- $shortName = printf "%s %s" (delimit . " ") $lastName -}}
+      {{- end -}}
+
+      {{/* Bold your own name. */}}
+      {{- if eq $fullName "Huakun Li" -}}
+        <strong>{{ $shortName }}</strong>
+      {{- else -}}
+        {{ $shortName }}
+      {{- end -}}
+
+      {{/* Render † and # as superscripts. */}}
+      {{- with $marker -}}<sup>{{ . }}</sup>{{- end -}}
+    {{- end -}}
   </span>
 
   ({{- $year -}}).

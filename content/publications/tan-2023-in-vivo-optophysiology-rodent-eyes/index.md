@@ -32,6 +32,7 @@ publication: '*European Conferences on Biomedical Optics*'
 publication_short: ''
 
 doi: 10.1117/12.2672175
+paper_url: "https://opg.optica.org/abstract.cfm?uri=ECBO-2023-126320P"
 
 abstract: ''
 

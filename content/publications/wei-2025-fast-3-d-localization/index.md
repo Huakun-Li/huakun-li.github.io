@@ -12,7 +12,7 @@ authors:
 - Huakun Li
 - Haitao Nie
 - Bihan Wen
-- Tong Ling
+- Tong Ling#
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list

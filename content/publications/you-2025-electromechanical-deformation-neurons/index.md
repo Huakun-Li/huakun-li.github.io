@@ -9,7 +9,7 @@ title: 'Electromechanical deformation of biological neurons: an intrinsic marker
 authors:
 - Hengze You
 - Huakun Li
-- Tong Ling
+- Tong Ling#
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list

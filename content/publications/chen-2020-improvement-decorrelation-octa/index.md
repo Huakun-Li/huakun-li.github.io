@@ -12,7 +12,7 @@ authors:
 - Kaiyuan Liu
 - Tongtong Cao
 - Huakun Li
-- Peng Li
+- Peng Li#
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list

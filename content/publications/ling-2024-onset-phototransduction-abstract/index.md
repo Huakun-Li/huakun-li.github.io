@@ -31,6 +31,8 @@ publication_types:
 publication: '*ARVO Annual Meeting Abstract*'
 publication_short: ''
 
+paper_url: "https://iovs.arvojournals.org/article.aspx?articleid=2794793"
+
 doi: ''
 
 abstract: ''

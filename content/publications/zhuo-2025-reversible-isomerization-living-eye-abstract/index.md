@@ -10,7 +10,7 @@ authors:
 - Yueming Zhuo
 - Huakun Li
 - Mohajeet Bhuckory
-- Daniel Palanker
+- Daniel V Palanker
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
@@ -31,6 +31,8 @@ publication: '*ARVO Annual Meeting Abstract*'
 publication_short: ''
 
 doi: ''
+
+paper_url: "https://iovs.arvojournals.org/article.aspx?articleid=2807604"
 
 abstract: ''
 
