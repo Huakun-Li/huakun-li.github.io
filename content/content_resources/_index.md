@@ -5,7 +5,7 @@ cms_exclude: true
 ## Open-Source Code and Data
 
 <div class="resource-item">
-  <img src="/resources/2024_NC.png">
+  <img src="/2024_NC.png">
 
   <div>
     <h3><a href="https://github.com/NTU-Ling-lab/ORG-Classification">ORG Classification</a></h3>
@@ -19,7 +19,7 @@ cms_exclude: true
 
 
 <div class="resource-item">
-  <img src="/resources/2025_NC.png">
+  <img src="/2025_NC.png">
 
   <div>
     <h3><a href="https://github.com/optoretinography/ORG-signal-extraction">ORG Signal Extraction</a></h3>
@@ -33,7 +33,7 @@ cms_exclude: true
 
 
 <div class="resource-item">
-  <img src="/resources/2025_PRESIR.png">
+  <img src="/2025_PRESIR.png">
 
   <div>
     <h3><a href="https://github.com/NTU-Ling-lab/dipe-visualizer">DIPE-visualizer</a></h3>
