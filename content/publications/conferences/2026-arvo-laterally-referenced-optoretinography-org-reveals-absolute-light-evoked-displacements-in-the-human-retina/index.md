@@ -12,7 +12,7 @@ authors:
 date: 2026-07-04T00:53:59.625Z
 publishDate: 2026-07-04T00:53:59.625Z
 publication_types:
-  - paper-conference
+  - abstract-conference
 publication: "*ARVO Annual Meeting Abstract*"
 publication_short: ""
 

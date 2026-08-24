@@ -10,7 +10,7 @@ sections:
       text: ""
       button:
         text: "Download CV"
-        url: "uploads/CV_LI HUAKUN_Jul2026.pdf"
+        url: "uploads/CV_Huakun Li_Aug2026.pdf"
       headings:
         about: ""
         education: ""

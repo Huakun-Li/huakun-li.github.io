@@ -25,7 +25,7 @@ publishDate: 2026-07-04T00:59:18.869Z
 # Publication type from the CSL standard.
 # Accepts a single type but formatted as a YAML list (Hugo requirement).
 publication_types:
-  - paper-conference
+  - abstract-conference
 publication: "*ARVO Annual Meeting Abstract*"
 publication_short: ""
 

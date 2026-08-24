@@ -26,7 +26,7 @@ publishDate: '2026-07-04T20:09:05.462571Z'
 # Publication type.
 # A single CSL publication type but formatted as a YAML list (for Hugo requirements).
 publication_types:
-- paper-conference
+- abstract-conference
 
 # Publication name and optional abbreviated publication name.
 publication: '*SPIE BiOS, Dynamics and Fluctuations in Biomedical Photonics XIX*'

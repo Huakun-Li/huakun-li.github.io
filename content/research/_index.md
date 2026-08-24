@@ -29,5 +29,5 @@ During my undergraduate studies, I developed several high-performance OCTA algor
 
 {{< figure
   src="/research/octa/octa.png"
-  caption="Left: *Representative depth-encoded OCTA image of the mouse retina. *Related methods and analyses were reported in [Opt. Lett., 2021](https://doi.org/10.1364/OL.405751).* Right: Quantitative analysis of skin vascular morphology in healthy participants and patients with port-wine stains. *Reproduced from [Quant. Imaging Med. Surg., 2021](https://doi.org/10.21037/qims-20-868).*"
+  caption="Left: Representative depth-encoded OCTA image of the mouse retina. *Related methods and analyses were reported in [Opt. Lett., 2021](https://doi.org/10.1364/OL.405751).* Right: Quantitative analysis of skin vascular morphology in healthy participants and patients with port-wine stains. *Reproduced from [Quant. Imaging Med. Surg., 2021](https://doi.org/10.21037/qims-20-868).*"
 >}}

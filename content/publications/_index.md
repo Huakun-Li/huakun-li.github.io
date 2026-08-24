@@ -50,6 +50,23 @@ sections:
       spacing:
         padding: ["20px", "0", "30px", "0"]
 
+
+  - block: collection
+    content:
+      title: Conference Abstracts
+      count: 0
+      filters:
+        folders:
+          - publications
+        publication_type: abstract-conference
+      archive:
+        enable: false
+    design:
+      view: citation
+      spacing:
+        padding: ["20px", "0", "30px", "0"]
+
+
   - block: collection
     content:
       title: Patents
